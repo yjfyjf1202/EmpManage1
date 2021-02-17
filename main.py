@@ -29,6 +29,7 @@ for p in range(1,148):
     #提取招聘单位
     corps = sele.xpath("//li[@class='list_com_name']/a/text()")
     #提取薪酬
+    #查看修改
     salarys = sele.xpath("//div[@class='list_jobs_box list clearfix']/ul/li[@class='list_jobs_salary']/text()")
 
     for i in range(0,len(position)):
